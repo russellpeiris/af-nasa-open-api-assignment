@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Apod > should render correctly 1`] = `<Apod />`;
+
+exports[`Apod > should render correctly with children 1`] = `
+<Apod>
+  <div>
+    Children
+  </div>
+</Apod>
+`;
+
+exports[`Apod > should render correctly with props 1`] = `
+<Apod
+  date="2021-09-01"
+  explanation="Explanation"
+  title="Title"
+  url="https://apod.nasa.gov/apod/image/2109/NGC6914_Hubble_960.jpg"
+/>
+`;
+
+exports[`Apod > should render correctly with props and children 1`] = `
+<Apod
+  date="2021-09-01"
+  explanation="Explanation"
+  title="Title"
+  url="https://apod.nasa.gov/apod/image/2109/NGC6914_Hubble_960.jpg"
+>
+  <div>
+    Children
+  </div>
+</Apod>
+`;

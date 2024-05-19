@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root {
+  font-family: 'Lexend', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color-scheme: light dark;
+
+  height: 100vh;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+}
+/* @keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0px 100px;
+  }
+}
+html, body {
+  color: white;
+  background-color: #010101;
+  background-image: radial-gradient(hsla(0, 29%, 86%, 0.2) 1px, transparent 1px);
+  background-size: 25px 25px;
+  animation: moveBackground 5s linear infinite;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+} */
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0px 100px;
+  }
+}
+html,
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-image: radial-gradient(
+    hsla(0, 29%, 86%, 0.2) 1px,
+    transparent 1px
+  );
+  background-color: #010101;
+  background-size: 25px 25px;
+  animation: moveBackground 5s linear infinite;
+  height: 100vh;
+}
+
+.ant-picker-now-btn{
+  color: #989898;
+
+  &:hover{
+    color: #010101;
+  }
+}
+
+.ant-form-item .ant-form-item-label > label {
+  color: white
+}
